@@ -1,4 +1,4 @@
-﻿<local:MyCard Title="Meory Client">
+<local:MyCard Title="Meory Client">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
             Text="Version 5.2"/>
@@ -12,8 +12,10 @@
             Text="点击访问" EventType="打开网页" EventData="https://www.createmiracle3330.top/meory " />
         <TextBlock Margin="0,0,0,4"
             Text="------------------------------------------------------------------------" />
+        <TextBlock Margin="0,0,0,4"
+            Text="请在每一次启动游戏之前检查更新，若版本号不变则没有更新，若版本号有变化则需要自行对照下方mod列表，使用pcl2的mod下载功能下载" />
         <local:MyButton Margin="0,8,0,0" Width="400" Height="35" HorizontalAlignment="left"
-                   Text="点击更新版本（文件保存到“PCL”文件夹中，并且选择“替换文件”）" EventType="下载文件" EventData="https://www.createmiracle3330.top/meory/Custom.xaml" />
+                   Text="检查更新 （文件保存到“PCL”文件夹中，并且选择“替换文件”）" EventType="下载文件" EventData="https://www.createmiracle3330.top/meory/Custom.xaml" />
         <TextBlock Margin="0,4,0,0"
             Text="请对照以下Mod列表在PCL2的Mod下载功能中下载mod（每一次更新版本之后都要检查有没有遗漏、多余或者错误的mod）"/>
         <TextBlock Margin="0,16,0,0"
